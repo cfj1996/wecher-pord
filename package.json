@@ -1,0 +1,12 @@
+{
+  "name": "wecher-pord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cfj1996/wecher-pord.git",
+  "author": "hua chen yu <929762292@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0"
+  }
+}
