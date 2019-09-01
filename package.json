@@ -4,9 +4,18 @@
   "main": "index.js",
   "repository": "https://github.com/cfj1996/wecher-pord.git",
   "author": "hua chen yu <929762292@qq.com>",
+  "scripts": {
+    "strap": "nodemon app.js"
+  },
   "license": "MIT",
   "dependencies": {
     "koa": "^2.8.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
